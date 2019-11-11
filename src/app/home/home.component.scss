@@ -1,0 +1,32 @@
+main{
+    width: 90%;
+    margin: auto;
+    padding: 20px 15px;
+  .featured{
+    font-family: 'Gill Sans', cursive;
+    font-size: 18px;
+    margin: 0;
+    letter-spacing: 1px;
+    color:orangered;
+    background: linear-gradient(
+      90deg,
+     yellow 44%,
+     orangered 100%);
+    }
+  
+    .banners{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: whitesmoke;
+      padding:20px;
+      div{
+        width: 26%;
+        margin-right: 10px;
+        img{
+       width: 60%;
+       object-fit: cover;
+        }
+      }
+    }
+  }
